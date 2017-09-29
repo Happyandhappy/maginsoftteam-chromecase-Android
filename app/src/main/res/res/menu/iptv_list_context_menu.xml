@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/menuOpen"
+        android:enabled="true"
+        android:title="@string/menu_open"/>
+
+    <item
+        android:id="@+id/menuRemove"
+        android:title="@string/menu_delete"
+        android:enabled="true"/>
+</menu>

@@ -1,0 +1,178 @@
+[
+    {
+        "outputFile": "C:\\Users\\oxytouch\\Downloads\\maginsoftteam-chromecase-sender-3d69399d988d\\maginsoftteam-chromecase-sender-3d69399d988d\\dropboxChooserSDK\\build\\intermediates\\incremental\\mergeDebugResources\\merged.dir\\values-zh-rTW\\values-zh-rTW.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 50,
+                    "endOffset": 101
+                },
+                "from": {
+                    "file": "C:\\Users\\oxytouch\\Downloads\\maginsoftteam-chromecase-sender-3d69399d988d\\maginsoftteam-chromecase-sender-3d69399d988d\\dropboxChooserSDK\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 3,
+                        "startColumn": 4,
+                        "startOffset": 261,
+                        "endColumn": 50,
+                        "endOffset": 307
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 106,
+                    "endColumn": 56,
+                    "endOffset": 158
+                },
+                "from": {
+                    "file": "C:\\Users\\oxytouch\\Downloads\\maginsoftteam-chromecase-sender-3d69399d988d\\maginsoftteam-chromecase-sender-3d69399d988d\\dropboxChooserSDK\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 365,
+                        "endColumn": 56,
+                        "endOffset": 417
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 163,
+                    "endColumn": 52,
+                    "endOffset": 211
+                },
+                "from": {
+                    "file": "C:\\Users\\oxytouch\\Downloads\\maginsoftteam-chromecase-sender-3d69399d988d\\maginsoftteam-chromecase-sender-3d69399d988d\\dropboxChooserSDK\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 312,
+                        "endColumn": 52,
+                        "endOffset": 360
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 216,
+                    "endColumn": 61,
+                    "endOffset": 273
+                },
+                "from": {
+                    "file": "C:\\Users\\oxytouch\\Downloads\\maginsoftteam-chromecase-sender-3d69399d988d\\maginsoftteam-chromecase-sender-3d69399d988d\\dropboxChooserSDK\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 1,
+                        "startColumn": 4,
+                        "startOffset": 108,
+                        "endColumn": 61,
+                        "endOffset": 165
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 278,
+                    "endColumn": 90,
+                    "endOffset": 364
+                },
+                "from": {
+                    "file": "C:\\Users\\oxytouch\\Downloads\\maginsoftteam-chromecase-sender-3d69399d988d\\maginsoftteam-chromecase-sender-3d69399d988d\\dropboxChooserSDK\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 2,
+                        "startColumn": 4,
+                        "startOffset": 170,
+                        "endColumn": 90,
+                        "endOffset": 256
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 369,
+                    "endColumn": 49,
+                    "endOffset": 414
+                },
+                "from": {
+                    "file": "C:\\Users\\oxytouch\\Downloads\\maginsoftteam-chromecase-sender-3d69399d988d\\maginsoftteam-chromecase-sender-3d69399d988d\\dropboxChooserSDK\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 578,
+                        "endColumn": 49,
+                        "endOffset": 623
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 419,
+                    "endColumn": 51,
+                    "endOffset": 466
+                },
+                "from": {
+                    "file": "C:\\Users\\oxytouch\\Downloads\\maginsoftteam-chromecase-sender-3d69399d988d\\maginsoftteam-chromecase-sender-3d69399d988d\\dropboxChooserSDK\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 628,
+                        "endColumn": 51,
+                        "endOffset": 675
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 471,
+                    "endColumn": 60,
+                    "endOffset": 527
+                },
+                "from": {
+                    "file": "C:\\Users\\oxytouch\\Downloads\\maginsoftteam-chromecase-sender-3d69399d988d\\maginsoftteam-chromecase-sender-3d69399d988d\\dropboxChooserSDK\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 422,
+                        "endColumn": 60,
+                        "endOffset": 478
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 532,
+                    "endColumn": 94,
+                    "endOffset": 622
+                },
+                "from": {
+                    "file": "C:\\Users\\oxytouch\\Downloads\\maginsoftteam-chromecase-sender-3d69399d988d\\maginsoftteam-chromecase-sender-3d69399d988d\\dropboxChooserSDK\\src\\main\\res\\values-zh-rTW\\strings.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 483,
+                        "endColumn": 94,
+                        "endOffset": 573
+                    }
+                }
+            }
+        ]
+    }
+]

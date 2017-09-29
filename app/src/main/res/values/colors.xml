@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2874f0</color>
+    <color name="colorPrimaryDark">#2874f0</color>
+    <color name="colorAccent">#FB641B</color>
+    <color name="colorBackground">#BB4F9B</color>
+    <color name="secondaryColor">#081014</color>
+
+    <color name="text_color_primary">#ffffff</color>
+    <color name="colorDivider">#394146</color>
+    <color name="gold">#FFD700</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="black">#000000</color>
+
+    <color name="whitegrey">#FFF2F2F2</color>
+
+    <color name="iptvbuttonfile">#A00B75</color>
+    <color name="iptv_item">#FFB323</color>
+
+
+    <color name="green">#FF99CC00</color>
+    <color name="bg_color">#BB4F9B</color>
+    <color name="colorDriveback">#CC45A9</color>
+    <color name="colorWhite">#ffffff</color>
+
+    <color name="colorCardBG">#206cf3</color>
+    <color name="colorOverlay">#80000000</color>
+    <color name="colorVideoCard">#5194ff</color>
+    <color name="colorSilver">#fafafa</color>
+    <color name="colorSilverDark">#dbdbdb</color>
+    <!--<color name="color_one">#f5a352</color>
+    <color name="color_two">#fb7374</color>
+    <color name="color_three">#c5aaf5</color>
+    <color name="color_four">#a3cbf1</color>
+    <color name="color_five">#79bfa1</color>
+    <color name="color_six">#423c40</color>
+    <color name="color_seven">#af6193</color>
+    <color name="color_eight">#61cf56</color>
+    <color name="color_nine">#ca3d83</color>
+    <color name="color_ten">#4c9ff4</color>-->
+
+    <color name="color_one">@color/colorCardBG</color>
+    <color name="color_two">@color/colorCardBG</color>
+    <color name="color_three">@color/colorCardBG</color>
+    <color name="color_four">@color/colorCardBG</color>
+    <color name="color_five">@color/colorCardBG</color>
+    <color name="color_six">@color/colorCardBG</color>
+    <color name="color_seven">@color/colorCardBG</color>
+    <color name="color_eight">@color/colorCardBG</color>
+    <color name="color_nine">@color/colorCardBG</color>
+    <color name="color_ten">@color/colorCardBG</color>
+    
+    
+</resources>

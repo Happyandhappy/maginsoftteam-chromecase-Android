@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <com.oxycast.chromecastapp.searchbar.FocusEditText
+        android:id="@+id/edtSearch"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:hint="@string/search_hint"
+        android:imeOptions="actionSearch"
+        android:inputType="text"
+        android:maxLines="1"
+        android:background="@color/colorSilver"
+        android:paddingLeft="10dp"
+        android:paddingRight="45dp"
+        android:selectAllOnFocus="true"
+        android:textColorHint="#888888"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+
+
+    </LinearLayout>

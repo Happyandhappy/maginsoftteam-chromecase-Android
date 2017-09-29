@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+  xmlns:android="http://schemas.android.com/apk/res/android"
+  xmlns:app="http://schemas.android.com/apk/res-auto"
+  xmlns:tools="http://schemas.android.com/tools"
+  android:layout_width="match_parent"
+  android:layout_height="match_parent"
+  android:background="@color/colorPrimary"
+  app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  >
+	<ScrollView
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_alignParentTop="true"
+	  android:layout_above="@+id/layout_add">
+		
+		<LinearLayout
+		  android:id="@+id/activity_main"
+		  android:layout_width="match_parent"
+		  android:layout_height="wrap_content"
+		  android:orientation="vertical">
+			
+			<LinearLayout
+			  android:id="@+id/first_row"
+			  android:layout_width="match_parent"
+			  android:layout_height="150dp"
+			  android:layout_gravity="center"
+			  android:weightSum="3"
+			  android:layout_marginTop="5dp"
+			  android:gravity="center_horizontal"
+			  android:orientation="horizontal">
+
+				<LinearLayout
+					android:id="@+id/wcbutton"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:background="@drawable/click_effect"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:srcCompat="@drawable/ic_web_cast"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/imageView"
+						android:gravity="center"
+						android:text="WEB CAST"
+						android:textColor="@color/text_color_primary"/>
+
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/phoneVideoButton"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:layout_marginStart="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginEnd="5dp"
+					android:layout_marginRight="5dp"
+					android:background="@drawable/click_effect"
+					android:orientation="vertical">
+
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:srcCompat="@drawable/ic_phone_video"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:layout_below="@+id/imageView"
+						android:gravity="center"
+						android:text="PHONE VIDEO"
+						android:textColor="@color/text_color_primary"/>
+
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/iptvButton"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:background="@drawable/click_effect"
+					android:orientation="vertical">
+
+					<ImageView
+						android:id="@+id/imageView"
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:srcCompat="@drawable/ic_iptv"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="IPTV"
+						android:textColor="@color/text_color_primary"/>
+
+
+				</LinearLayout>
+			
+			</LinearLayout>
+			
+			<LinearLayout
+			  android:id="@+id/second_row"
+			  android:layout_width="match_parent"
+			  android:layout_height="150dp"
+			  android:layout_gravity="center"
+			  android:weightSum="3"
+			  android:layout_marginTop="5dp"
+			  android:gravity="center_horizontal"
+			  android:orientation="horizontal">
+
+				<LinearLayout
+					android:id="@+id/serverButton"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:background="@drawable/click_effect"
+					android:orientation="vertical">
+
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:srcCompat="@drawable/ic_server"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="SERVER"
+						android:textColor="@color/text_color_primary"/>
+
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/share"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:layout_marginStart="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginEnd="5dp"
+					android:layout_marginRight="5dp"
+					android:background="@drawable/click_effect"
+					android:orientation="vertical">
+
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:srcCompat="@drawable/ic_share"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="SHARE"
+						android:textColor="@color/text_color_primary"/>
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/facebook"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:background="@drawable/click_effect"
+					android:orientation="vertical">
+
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:srcCompat="@drawable/ic_facebook"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="FACEBOOK"
+						android:textColor="@color/text_color_primary"/>
+
+
+				</LinearLayout>
+
+			</LinearLayout>
+			
+			<LinearLayout
+			  android:id="@+id/third_row"
+			  android:layout_width="match_parent"
+			  android:layout_height="150dp"
+			  android:layout_gravity="center"
+			  android:weightSum="3"
+			  android:layout_marginTop="5dp"
+			  android:gravity="center_horizontal"
+			  android:orientation="horizontal">
+
+
+
+				<LinearLayout
+					android:id="@+id/help"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:background="@drawable/click_effect"
+					android:orientation="vertical">
+
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:srcCompat="@drawable/ic_help"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="HELP"
+						android:textColor="@color/text_color_primary"/>
+
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/rate"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:layout_marginStart="5dp"
+					android:layout_marginLeft="5dp"
+					android:layout_marginEnd="5dp"
+					android:layout_marginRight="5dp"
+					android:background="@drawable/click_effect"
+					android:gravity="center"
+					android:orientation="vertical">
+
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:srcCompat="@drawable/ic_rate"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="RATE"
+						android:textColor="@color/text_color_primary"/>
+
+
+				</LinearLayout>
+
+				<LinearLayout
+					android:id="@+id/lay_removeAd"
+					android:layout_width="0dp"
+					android:layout_height="match_parent"
+					android:layout_weight="1"
+					android:gravity="center"
+					android:background="@drawable/click_effect"
+					android:orientation="vertical">
+
+					<ImageView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						app:srcCompat="@drawable/ic_remove_add"/>
+
+					<TextView
+						android:layout_width="wrap_content"
+						android:layout_height="wrap_content"
+						android:gravity="center"
+						android:text="REMOVE ADS"
+						android:textColor="@color/text_color_primary"/>
+
+
+				</LinearLayout>
+
+			</LinearLayout>
+
+
+		
+		</LinearLayout>
+	
+	</ScrollView>
+	<LinearLayout
+	  android:id="@+id/layout_add"
+	  android:layout_width="match_parent"
+	  android:layout_height="wrap_content"
+	  android:layout_alignParentBottom="true"
+	  android:gravity="center"
+	  android:orientation="vertical">
+		
+		<fragment
+		  android:id="@+id/castMiniController"
+		  class="com.google.android.gms.cast.framework.media.widget.MiniControllerFragment"
+		  android:layout_width="fill_parent"
+		  android:layout_height="wrap_content"
+		  android:layout_alignWithParentIfMissing="true"
+		  android:visibility="visible"
+		  app:castControlButtons="@array/cast_mini_controller_control_buttons"
+		  app:castShowImageThumbnail="false"/>
+		
+		<com.google.android.gms.ads.AdView
+		  android:id="@+id/adView"
+		  android:layout_width="wrap_content"
+		  android:layout_height="wrap_content"
+		  android:layout_centerHorizontal="true"
+		  app:adSize="BANNER"
+		  app:adUnitId="@string/main_banner_ad_unit_id">
+		</com.google.android.gms.ads.AdView>
+	</LinearLayout>
+</RelativeLayout>

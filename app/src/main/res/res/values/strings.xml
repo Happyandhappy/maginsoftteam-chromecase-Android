@@ -1,0 +1,86 @@
+<resources>
+    <string name="app_name">OxyCast TV</string>
+    <string name="home_title">OxyCast TV</string>
+    <string name="media_route_menu_title">Play on&#8230;</string>
+    <string name="app_id">AD7450D1</string>
+    <string name="custom_app_name"><![CDATA[OxyCast <font color="#f59c1c">TV</font>]]></string>
+  <!--  <string name="app_id">AD7450D1</string>-->
+
+    <string name="title_activity_web_view">WebViewActivity</string>
+    <string name="search_hint">Search or type URL</string>
+    <string name="search_local_hint">Search...</string>
+    <string name="preparing">Preparing…</string>
+
+    <string name="cast">Cast</string>
+    <string name="cancel">Cancel</string>
+    <string name="dialog_new_video_link_found">Video name is \"%s\". Do you want to cast this video?</string>
+    <string name="dialog_new_video_link_found_title">New video link found</string>
+
+    <string name="menu_reload">Reload</string>
+    <string name="menu_bookmark">Add Bookmark</string>
+    <string name="menu_mybookmark">My Bookmark</string>
+    <string name="menu_blockads">Block Ads</string>
+    <string name="not_connected">Cast device is not connected</string>
+    <string name="menu_history">History</string>
+    <string name="menu_addquickaccess">Add to quick access</string>
+    <string name="menu_clearhistory">Clear history</string>
+    <string name="menu_clearonexit">Clear cache &amp; cookies on exit</string>
+    <string name="menu_switchuseragent">Switch user-agent</string>
+    <string name="menu_chromemobile">Chrome mobile</string>
+    <string name="menu_safari">Desktop</string>
+    <string name="menu_firefox">Firefox</string>
+    <string name="help">Help</string>
+
+    <!--string name="uachromemobile">Mozilla/5.0 (Linux; Android 6.0.1; LG-L160L Build/IML74K) AppleWebkit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36</string>-->
+    <string name="uachromemobile">Mozilla/5.0 (Linux; Android 5.1.1; Nexus 5 Build/LMY48B; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/43.0.2357.65 Mobile Safari/537.36</string>
+    <string name="uachromemobile_alt">Mozilla/5.0 (Linux; Android 6.0.1; SM-G900FD Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Mobile Safari/537.36</string>
+    <string name="uasafari">Mozilla/5.0 (Windows; U; Windows NT 6.0; en-US) AppleWebKit/528.16 (KHTML, like Gecko) Version/4.0 Safari/528.16</string>
+    <string name="uafirefox">Mozilla/5.0 (Windows NT 10.0; WOW64; rv:40.0) Gecko/20100101 Firefox/40.0</string>
+    <string name="clearhistory">Do you want clear history?</string>
+    <string name="clearhistory_title">Clear history</string>
+    <string name="clearhistory_button">Clear</string>
+    <string name="menu_clearcookie">Clear cache, cookies</string>
+
+    <string name="menu_open">Open</string>
+    <string name="menu_delete">Delete</string>
+    <string name="menu_select_link">Click Here  to Cast</string>
+    <string name="select_video_title">Please select video</string>
+    <string name="not_device">Please connect to chromecast device</string>
+
+    <string name="find_new_videos">New videos added to Playlist</string>
+    <string name="blocked_ads">Blocked ads from</string>
+
+    <string name="refresh">Refresh</string>
+    <string name="search">Search</string>
+
+    <string name="webservernotopen">Could not start the server</string>
+    <string name="restartvideo">Do you want to restart video?</string>
+    <string name="subtitle_empty">No subtitles found, try again!</string>
+    <string name="subtitle_error">Subtitles not downloaded</string>
+
+    <string name="iptv_address">Type or Paste Below Your Web Address</string>
+    <string name="iptv_address_hint">Add Link or M3u Playlist address Here</string>
+    <string name="iptv_address_or">OR</string>
+    <string name="iptv_choosefile">CHOOSE FILE</string>
+    <string name="iptv_name">Name (optional)</string>
+    <string name="iptv_add">Add</string>
+    <string name="iptv_error_message">Type playlist address or choose file</string>
+    <string name="iptv_not_supported">The chromecast does not support this format</string>
+    <string name="iptv_select_file">Select a file</string>
+    <string name="android5_protected1">You need to choose the directory from a special Android dialog to give OxycastTV write rights. In the next dialog, please go to the root of the external SD-card and click on the button at the bottom, \'Select\'!</string>
+    <string name="android5_protected2">The external SD card is write protected.</string>
+    <string name="iptv_unable_cast">Unable to play this media</string>
+    <string name="iptv_unable_cast_title">Playback error</string>
+    <string name="main_banner_ad_unit_id">ca-app-pub-8920798231622156/8893264825</string>
+    <string name="web_banner_ad_unit_id">ca-app-pub-8920798231622156/8893264825</string>
+    <string name="local_banner_ad_unit_id">ca-app-pub-8920798231622156/8893264825</string>
+    <string name="iptv_banner_ad_unit_id">ca-app-pub-8920798231622156/8893264825</string>
+    <string name="main_interstitial_ad_unit_id">ca-app-pub-8920798231622156/5013993859</string>
+    <string name="server_banner_ad_unit_id">ca-app-pub-8920798231622156/8893264825</string>
+    <string name="onedrive_app_id">a67a0526-6814-49ba-8454-b766d5823687</string>
+    <string name="onedrive_not_file">Did not get a file from the picker!</string>
+    <string name="dropbox_app_key">kn5sshklfbl2ppx</string>
+    <string name="dropbox_app_secret">0nl38eii64wu6rb</string>
+    <string name="purchase_message">Remove App Ads And Enable Ads Blocker,Note-Ads Blocker May Not Work In Some Websites.</string>
+    <string name="purchase_message_ad_block">Remove App Ads And Enable Ads Blocker,Note-Ads Blocker May Not Work In Some Websites.</string>
+</resources>

@@ -1,0 +1,29 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".cloudserver.Files">
+    <ProgressBar
+        android:id="@+id/spinner"
+        style="?android:attr/progressBarStyleLarge"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+    <TextView
+        android:id="@+id/textView_noFiles"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/no_files"
+        android:gravity="center"
+        android:padding="10dp"
+        android:visibility="gone"
+        android:textColor="@color/colorWhite"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:dividerHeight="0dp"
+        android:id="@+id/listView"
+        android:choiceMode="singleChoice" />
+
+</RelativeLayout>

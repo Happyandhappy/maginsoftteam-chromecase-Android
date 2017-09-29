@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "590310281456",
+    "firebase_url": "https://oxycast-tv.firebaseio.com",
+    "project_id": "oxycast-tv",
+    "storage_bucket": "oxycast-tv.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:590310281456:android:9733ee51caf9428f",
+        "android_client_info": {
+          "package_name": "com.oxycast.tvcast"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "590310281456-8fqtbia3a1remp82d7ju9ga3ghteim9m.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDY3j1YM1tHjEfFIsDJ8UTTiVS2dAEYHF0"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

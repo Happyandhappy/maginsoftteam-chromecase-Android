@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#0c171d</color>
+    <color name="colorPrimaryDark">#0c171d</color>
+    <color name="colorAccent">#f59c1c</color>
+    <color name="colorBackground">#BB4F9B</color>
+    <color name="secondaryColor">#081014</color>
+
+    <color name="gold">#FFD700</color>
+    <color name="pink">#FFC0CB</color>
+    <color name="black">#000000</color>
+
+    <color name="whitegrey">#FFF2F2F2</color>
+
+    <color name="iptvbuttonfile">#A00B75</color>
+    <color name="iptv_item">#FFB323</color>
+    
+    
+    
+    
+    
+    
+    <color name="color_one">#f5a352</color>
+    <color name="color_two">#fb7374</color>
+    <color name="color_three">#c5aaf5</color>
+    <color name="color_four">#a3cbf1</color>
+    <color name="color_five">#79bfa1</color>
+    <color name="color_six">#423c40</color>
+    <color name="color_seven">#af6193</color>
+    <color name="color_eight">#61cf56</color>
+    <color name="color_nine">#ca3d83</color>
+    <color name="color_ten">#4c9ff4</color>
+    
+    
+    
+</resources>

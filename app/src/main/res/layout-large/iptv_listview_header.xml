@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:id="@+id/activity_main"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.oxycast.chromecastapp.IptvActivity"
+    android:background="@color/colorPrimary">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iptv_address"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:textColor="@android:color/white"
+        />
+
+    <EditText
+        android:id="@+id/addressText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:inputType="text"
+        android:lines="1"
+        android:scrollHorizontally="true"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:ellipsize="end"
+        android:hint="@string/iptv_address_hint"
+        android:background="@color/colorSilver" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/iptv_address_or"
+        android:gravity="center"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+        android:textColor="@android:color/white"
+        />
+
+    <Button
+        android:id="@+id/choosefile"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:text="@string/iptv_choosefile" />
+
+    <EditText
+        android:id="@+id/iptvName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="40dp"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:maxLines="1"
+        android:padding="10dp"
+        android:hint="@string/iptv_name"
+        android:background="@color/colorSilver" />
+
+    <Button
+        android:id="@+id/iptvAdd"
+        android:background="@color/colorAccent"
+        android:textColor="@android:color/white"
+        android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:text="@string/iptv_add" />
+
+</LinearLayout>

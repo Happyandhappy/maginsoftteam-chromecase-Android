@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:background="@color/colorPrimary"
+              android:paddingBottom="10dp"
+              android:paddingLeft="@dimen/activity_horizontal_margin"
+              android:paddingRight="@dimen/activity_horizontal_margin"
+              android:paddingTop="10dp"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              app:layout_behavior="@string/appbar_scrolling_view_behavior"
+  >
+	
+	<TextView
+	  android:layout_width="match_parent"
+	  android:layout_height="45dp"
+	  android:layout_marginLeft="15dp"
+	   android:gravity="center_vertical"
+	  android:text="@string/help"
+	
+	  android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+	  android:textColor="@color/text_color_primary"
+	
+	  android:textStyle="bold" />
+	
+	<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+	            xmlns:app="http://schemas.android.com/apk/res-auto"
+	            xmlns:tools="http://schemas.android.com/tools"
+	            android:layout_width="match_parent"
+	            android:layout_height="match_parent"
+	            android:layout_marginTop="5dp"
+	            
+	            tools:context="com.oxycast.chromecastapp.HelpActivity">
+		
+		<LinearLayout
+		  android:layout_width="match_parent"
+		  android:layout_height="match_parent"
+		  android:layout_marginLeft="14dp"
+		  android:layout_marginRight="14dp"
+		  android:orientation="vertical">
+			
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:text="@string/q1"
+			  android:textColor="@color/text_color_primary"
+			  
+			
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			  android:textStyle="bold" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="5dp"
+			  android:text="@string/ans1"
+			
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			  android:textColor="@color/text_color_primary"
+			 
+			  android:textStyle="normal" />
+			
+			<TextView
+			  android:id="@+id/textView"
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="10dp"
+			  android:text="@string/q2"
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="bold" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="5dp"
+			  android:text="@string/ans2"
+			
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="normal" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="10dp"
+			  android:text="@string/q3"
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="bold" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="5dp"
+			  android:text="@string/ans3"
+			
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="normal" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="10dp"
+			  android:text="@string/q4"
+			
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="bold" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="5dp"
+			  android:text="@string/ans4"
+			
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="normal" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="10dp"
+			  android:text="@string/q5"
+			
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="bold" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="5dp"
+			  android:text="@string/ans5"
+			
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="normal" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="10dp"
+			  android:text="@string/q6"
+			
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="bold" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="5dp"
+			  android:text="@string/ans6"
+			
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="normal" />
+			
+			<!--   <TextView
+				   android:layout_width="match_parent"
+				   android:layout_height="wrap_content"
+				   android:layout_marginTop="5dp"
+				   android:text="Answer: Most video website have multiple video sources available. app will find as many videos as possible ,this means some videos in the page might be missed,try different link if available of under &quot;Select Link To Cast&quot;. make sure video can be played in the app browser without flash,or try to change user agent (request desktop website)."
+				   android:textColor="#000"
+				   android:textSize="16sp"
+				   android:textStyle="normal" />-->
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="10dp"
+			  android:text="@string/q7"
+			
+			  android:textColor="@color/text_color_primary"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:textStyle="bold" />
+			
+			<TextView
+			  android:layout_width="match_parent"
+			  android:layout_height="wrap_content"
+			  android:layout_marginTop="5dp"
+			
+			  android:textColor="@color/text_color_primary"
+			  android:layout_marginBottom="10dp"
+			  android:paddingBottom="5dp"
+			  android:textAppearance="@style/Base.TextAppearance.AppCompat.Medium"
+			
+			  android:text="@string/ans7"
+			  android:textStyle="normal" />
+		</LinearLayout>
+	
+	</ScrollView>
+</LinearLayout>

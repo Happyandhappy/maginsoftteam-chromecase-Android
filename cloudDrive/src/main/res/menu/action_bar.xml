@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/action_refresh"
+        android:title="@string/action_refresh"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_action_autorenew"/>
+    <!--<item
+        android:id="@+id/action_upload"
+        android:title="@string/action_upload"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_file_file_upload"/>
+    <item
+        android:id="@+id/action_create_folder"
+        android:title="Create Folder"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_create_new_folder_white_24dp"
+        />-->
+    <item
+        android:id="@+id/action_search"
+        android:title="Search"
+        app:showAsAction="always"
+        android:icon="@drawable/ic_search_white_24dp"
+        />
+</menu>

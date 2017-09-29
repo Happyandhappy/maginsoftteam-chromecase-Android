@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    >
+
+    <ImageView
+        android:id="@+id/thumbnail"
+        android:src="@drawable/ic_movie_black_48dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_width="24dp"
+        android:layout_height="24dp"
+        android:layout_marginLeft="16dp"
+        android:layout_marginRight="16dp"
+        />
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_toRightOf="@+id/thumbnail"
+        android:layout_marginLeft="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ellipsize="end"
+            android:fontFamily="sans-serif-medium"
+            android:gravity="center_vertical"
+            android:maxLines="2"
+            android:minHeight="?android:attr/listPreferredItemHeightSmall"
+
+            android:textSize="16sp" />
+
+        <TextView
+            android:id="@+id/ext"
+            android:textSize="16sp"
+            android:fontFamily="sans-serif-light"
+            android:maxLines="1"
+            android:singleLine="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="15dp"
+            android:visibility="gone"
+            />
+
+    </LinearLayout>
+</RelativeLayout>

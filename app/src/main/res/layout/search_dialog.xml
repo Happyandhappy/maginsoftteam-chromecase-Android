@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <android.support.percent.PercentRelativeLayout
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:id="@+id/searchBox"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:focusable="true"
+            android:focusableInTouchMode="true"
+            android:layout_width="0px"
+            android:layout_height="0px" />
+
+        <RelativeLayout
+            android:id="@+id/textboxRL"
+            android:layout_height="wrap_content"
+            app:layout_widthPercent="95%"
+
+            android:layout_centerHorizontal="true"
+            >
+            <EditText
+                android:id="@+id/search_bar"
+                android:layout_width="match_parent"
+
+                android:hint="@string/search_hint"
+
+                android:imeOptions="actionSearch"
+                android:textColor="@color/black"
+                android:inputType="text"
+                android:maxLines="1"
+                android:textSize="15sp"
+                android:textColorHint="#888888"
+                android:paddingLeft="10dp"
+                android:paddingRight="45dp"
+                android:layout_height="40dp"/>
+            <!-- ICON -->
+            <ImageView
+                android:padding="3dp"
+                android:id="@+id/search_icon"
+                android:layout_alignParentRight="true"
+                android:layout_marginRight="5dp"
+                android:src="@drawable/search"
+                android:layout_width="30dp"
+                android:layout_height="40dp" />
+        </RelativeLayout>
+
+
+    </android.support.percent.PercentRelativeLayout>
+    <ListView
+        android:id="@+id/listResult"
+        android:minHeight="200dp"
+        android:layout_below="@+id/searchBox"
+        android:layout_width="match_parent"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentBottom="true"
+        android:layout_height="300dp"></ListView>
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:visibility="gone"
+        android:id="@+id/empty"
+        android:layout_height="match_parent">
+
+        <TextView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textColor="@android:color/black"
+            android:text="@string/subtitle_empty"
+            />
+        </RelativeLayout>
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_centerInParent="true"
+        android:visibility="invisible"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+</RelativeLayout>
